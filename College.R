@@ -10,9 +10,9 @@
 
 library("tidyverse")
 
-mrCohort <- read.csv("https://ed-public-download.app.cloud.gov/downloads/Most-Recent-Cohorts-Scorecard-Elements.csv")
+mrCohort <- read.csv("https://raw.githubusercontent.com/JonWayland/US-Universities/master/Most-Recent-Cohorts-Scorecard-Elements.csv")
 
-data_dictionary <- read.csv("C:/Users/jonwa/Desktop/R Playground/College Data/Data_Dictionary.csv") # Figure out how to pull directly from internet
+data_dictionary <- read.csv("https://raw.githubusercontent.com/JonWayland/US-Universities/master/Data_Dictionary.csv") 
 
 # Data dictionary function
 dataDic <- function(colName){
